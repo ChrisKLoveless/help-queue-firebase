@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <React.Fragment>
-      <h1>Help Queue</h1>
+      <h1>Help Queue with Firebase</h1>
+      <hr/>
       <ul>
         <li>
           <Link to="/">Home</Link>
