@@ -25,7 +25,7 @@ function TicketControl() {
             names: doc.data().names,
             location: doc.data().location,
             issue: doc.data().issue,
-            id: doc.data().id
+            id: doc.id
           });
         });
         setMainTicketList(tickets);
